@@ -16,13 +16,13 @@ function Home() {
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
+                  {/* Wave Class created in styles.css if animation is desired of an emok */}
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                This is our
+                <strong className="main-name"> STOR 565 Final Project</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
