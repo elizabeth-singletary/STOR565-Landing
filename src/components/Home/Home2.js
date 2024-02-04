@@ -19,12 +19,14 @@ function Home2() {
             </p>
           </div>
         </Row>
-        <Row>
-        <div className="m-10">
+        <Row className="m-4">
+        <div>
             <h3 className="project-heading">Group Members</h3>
           </div>
         </Row>
-        <Row className="text-center">"
+        <Row className="text-center" style={{fontSize: "1.2em", textAlign: "center", paddingTop: "15px"}}>"
+
+        
          
           <Col className="d-flex text-light m-2">
           <div className="mr-2">
@@ -75,16 +77,6 @@ function Home2() {
           
           <div className="p-2">Grace Sosa</div>
           </Col>
-
-
-
-
-
-
-        
-
-        
-          
         </Row>
       </Container>
     </Container>
