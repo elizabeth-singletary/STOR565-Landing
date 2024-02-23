@@ -9,6 +9,7 @@ import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
+  AiOutlineUser
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -50,13 +51,7 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
-            </Nav.Item>
-
-
+          
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -67,6 +62,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Proposal
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://drive.google.com/drive/folders/1sdDmQz3liB8Op8LO2kFM25cFG3-fboZf?usp=drive_link"
+                target="_blank"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Weekly Reports
               </Nav.Link>
             </Nav.Item>
 
