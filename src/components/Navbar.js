@@ -67,7 +67,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://drive.google.com/drive/folders/1sdDmQz3liB8Op8LO2kFM25cFG3-fboZf?usp=drive_link"
+                href="https://www.dropbox.com/scl/fo/3pidsfv0qyq5kc4ik44s3/h?rlkey=dwoyaani0g8qaplzuk39ilftp&dl=0"
                 target="_blank"
                 onClick={() => updateExpanded(false)}
               >
