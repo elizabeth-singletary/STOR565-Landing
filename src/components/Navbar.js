@@ -77,7 +77,6 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
                 href="public\MLFs_Final_Paper.pdf"
                 onClick={() => updateExpanded(false)}
               >
