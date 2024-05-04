@@ -78,7 +78,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                href="public\MLFs Final Paper.pdf"
+                to="public\MLFs Final Paper.pdf"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Final Report
