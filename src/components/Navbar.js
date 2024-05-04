@@ -78,10 +78,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                href="src\Assets\MLFs Final Paper.pdf"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Project Summary
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Final Report
               </Nav.Link>
             </Nav.Item>
 
