@@ -54,8 +54,8 @@ function NavBar() {
           
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/project"
+                href="/MLFSProjectProposal.pdf"
+                target="_blank"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
